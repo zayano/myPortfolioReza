@@ -1,81 +1,116 @@
 export const companies = [
   {
-    title: 'Nalikes Studio',
-    alt: 'NS image',
-    role: 'Senior Software Engineer',
-    skills: ['web3', 'nextjs', 'rails', 'typescript', 'react', 'aws', 'heroku'],
-    period: '2023 - Present',
-    logo: '/assets/images/logos/nalikes-studio.png'
+    title: 'PT. Pelayaran Nasional Indonesia (Persero)',
+    alt: 'Pelni image',
+    role: 'Developer',
+    skills: [
+      'flutter',
+      'dart',
+      'nextjs',
+      'react',
+      'typescript',
+      'javascript',
+      'nestjs',
+      'json',
+      'firebase',
+      'playstore',
+      'appstore',
+      'git'
+    ],
+    period: 'Apr 2024 - Present',
+    logo: '/assets/images/logos/pelni_logo.png'
   },
   {
-    title: 'Big Wolf Games',
-    alt: 'BW image',
-    role: 'Senior Software Engineer',
-    skills: ['ruby', 'rails', 'typescript', 'react', 'pixi', 'aws', 'heroku', 'serverless'],
-    period: '2021 - 2023',
-    logo: '/assets/images/logos/bigwolf.png'
-  },
-  {
-    title: 'Phaedra Solutions',
-    alt: 'PS image',
-    role: 'Senior Software Engineer',
-    skills: ['ruby', 'rails', 'typescript', 'javascript', 'react', 'aws'],
-    period: '2019 - 2021',
-    logo: '/assets/images/logos/phaedra.jpeg'
-  },
-  {
-    title: 'Brainx Technologies',
-    alt: 'BT image',
+    title: 'PT. Deggan Technowave',
+    alt: 'Deggan Technowave image',
     role: 'Software Engineer',
-    skills: ['ruby', 'rails', 'javascript', 'python'],
-    period: '2018 - 2019',
-    logo: '/assets/images/logos/brainxtech.png'
+    skills: [
+      'vs code',
+      'android studio',
+      'java',
+      'kotlin',
+      'flutter',
+      'dart',
+      'firebase',
+      'facebook-sdk',
+      'onesignal',
+      'git',
+      'clickup',
+      'trello',
+      'json',
+      'cubit',
+      'bloc',
+      'playstore',
+      'appstore'
+    ],
+    period: 'Jan 2021 - Apr 2024',
+    logo: '/assets/images/logos/deggan_logo.png'
   },
-  // {
-  //   title: "Codenya Studio",
-  //   alt: "CS image",
-  //   role: "Co-founder, CTO",
-  //   skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-  //   period: "2018 - Present",
-  //   logo: '/assets/images/logos/codenya.png'
-  // },
   {
-    title: 'Brainplow',
-    alt: 'Brainplow image',
-    role: 'Software Engineer',
-    skills: ['javascript', 'python', 'angular'],
-    period: '2017 - 2018',
-    logo: '/assets/images/logos/brainplow.jpg'
+    title: 'PT. MNC Land Tbk',
+    alt: 'MNC Land image',
+    role: 'Mobile & Application Development Officer',
+    skills: ['vs code', 'flutter', 'odoo', 'json-rpc', 'json', 'trello', 'android', 'ios', 'git'],
+    period: 'Jan 2020 - Jan 2021',
+    logo: '/assets/images/logos/mncland_logo.png'
+  },
+  {
+    title: 'PT. Sentuh Digital Teknologi',
+    alt: 'Sentuh Digital Teknologi image',
+    role: 'Programmer',
+    skills: [
+      'android studio',
+      'java',
+      'json',
+      'postman',
+      'git',
+      'vs code',
+      'c#',
+      'unity',
+      'firebase',
+      'trello',
+      'tensorflow'
+    ],
+    period: 'Aug 2018 - Jan 2020',
+    logo: '/assets/images/logos/sentuh_logo.png'
+  },
+  {
+    title: 'PT. Ciptadra Softindo',
+    alt: 'Ciptadra Softindo image',
+    role: 'Android Developer Intern',
+    skills: ['android studio', 'kotlin', 'java', 'playstore', 'postman', 'git'],
+    period: 'May 2018 - Sep 2018',
+    logo: '/assets/images/logos/ciptadra_logo.png'
   }
 ];
 
 export const institutes = [
   {
-    short_title: 'FAST - NUCES',
-    title: 'National University of Computer and Emerging Sciences',
+    short_title: 'Gunadarma',
+    title: 'Gunadarma University',
     alt: 'Nuces image',
-    role: "Bachelor's Degree in Computer Science",
-    skills: ['project management', 'web development', 'data structures'],
-    period: '2013 - 2017',
-    startingYear: '2013',
-    logo: '/assets/images/logos/fast.png',
+    role: "Bachelor's Degree in  Informatics Engineering",
+    skills: ['android development'],
+    period: '2014 - 2018',
+    startingYear: '2014',
+    logo: '/assets/images/logos/gunadarma_logo.png',
     awards: [
-      {
-        title: 'Speed Programming Battle',
-        description: 'Won speed programming battle which held at FAST - NUCES.',
-        date: 'May 1, 2015'
-      },
-      {
-        title: 'Silver Medal',
-        description:
-          'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
-        date: 'May 1, 2014'
-      },
-      {
-        title: 'Speed Programming Battle',
-        description: 'Won speed programming battle which held at FAST - NUCES.',
-        date: 'Nov 1, 2013'
-      }
+      // {
+      //   title: 'Speed Programming Battle',
+      //   description: 'Won speed programming battle which held at FAST - NUCES.',
+      //   date: 'May 1, 2015'
+      // },
+      // {
+      //   title: 'Silver Medal',
+      //   description:
+      //     'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
+      //   date: 'May 1, 2014'
+      // },
+      // {
+      //   title: 'Speed Programming Battle',
+      //   description: 'Won speed programming battle which held at FAST - NUCES.',
+      //   date: 'Nov 1, 2013'
+      // }
     ]
   }
 ];

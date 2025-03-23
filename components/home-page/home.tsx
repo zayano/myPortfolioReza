@@ -60,7 +60,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               size={'2xl'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
+              src={'/assets/images/user_icon.png'}
             />
           </MotionBox>
         </MotionBox>
@@ -127,18 +127,18 @@ const Home: React.FC<BlogPostProps> = (props) => {
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
             My name is{' '}
             <Box as="strong" fontWeight="600">
-              Ahmad
+              Reza
             </Box>{' '}
             and I&apos;m a{' '}
             <Box as="span" whiteSpace="nowrap">
-              Full Stack Developer and
+              Software Engineer and
             </Box>{' '}
             <Box as="span" whiteSpace="nowrap">
               an open source lover&nbsp;
             </Box>
             from{' '}
             <Box as="span" whiteSpace="nowrap">
-              Pakistan 🇵🇰
+              Indonesia 🇮🇩
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">

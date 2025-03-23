@@ -53,7 +53,7 @@ const Card = (props: CardProps) => {
               rounded="full"
               w={16}
               h={16}
-              objectFit="cover"
+              objectFit="contain"
               fallbackSrc={'/assets/images/placeholder.png'}
               src={logo}
               alt={alt}

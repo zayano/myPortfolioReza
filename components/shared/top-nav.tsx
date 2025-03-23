@@ -171,7 +171,7 @@ export default function TopNav() {
                   size={'sm'}
                   showBorder={true}
                   borderColor={linkColor}
-                  src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
+                  src={'/assets/images/user_icon.png'}
                 />
               </NextLink>
             </MotionBox>

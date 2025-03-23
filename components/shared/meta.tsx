@@ -23,15 +23,15 @@ const Meta = ({ title, keywords, description, image }: Props): JSX.Element => {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
-      <title>{title.includes('Ahmad') ? title : title.concat(' | Muhammad Ahmad')}</title>
+      <title>{title.includes('Reza') ? title : title.concat(' | Reza Aditya Sutrisno')}</title>
     </Head>
   );
 };
 
 Meta.defaultProps = {
-  title: 'Muhammad Ahmad - Full Stack Developer',
-  keywords: 'web development, programming, web design, react js, chakra ui',
-  description: 'Software Engineer. Lover of web and opensource.',
+  title: 'Reza Aditya Sutrisno - Software Engineer',
+  keywords: 'mobile development, web development, programming, react js, chakra ui',
+  description: 'Software Engineer. Lover of mobile, web, and opensource.',
   image: SEO_IMAGE
 };
 

@@ -2,49 +2,42 @@ import {
   FaGithub,
   FaDev,
   FaLinkedin,
-  FaQuora,
   FaTwitter
 } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Muhammad Ahmad. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Reza Aditya Sutrisno. All Rights Reserved.`,
   author: {
-    name: "Muhammad Ahmad",
+    name: "Reza Aditya Sutrisno",
     accounts: [
       {
-        url: "https://github.com/MA-Ahmad",
+        url: "https://github.com/zayano",
         label: "Github Account",
         type: "gray",
         icon: <FaGithub />
       },
       {
-        url: "https://twitter.com/muhammad_ahmaad",
+        url: "https://x.com/Zaditno",
         label: "Twitter Account",
         type: "twitter",
         icon: <FaTwitter />
       },
       {
-        url: "https://dev.to/m_ahmad",
+        url: "https://dev.to/zayano",
         label: "Dev Account",
         type: "gray",
         icon: <FaDev />
       },
       {
-        url: "https://linkedin.com/in/muhammad-ahmad20",
+        url: "https://www.linkedin.com/in/reza-aditya-sutrisno-9b8519161/",
         label: "LinkedIn Account",
         type: "linkedin",
         icon: <FaLinkedin />
       },
       {
-        url: "https://www.quora.com/profile/Muhammad-Ahmad-66",
-        label: "Quora Account",
-        type: "red",
-        icon: <FaQuora />
-      },
-      {
-        url: "mailto:muhammad.ahmad8043@gmail.com",
-        label: "Mail ahmad",
+        url: "mailto:adityareza46@@gmail.com",
+        label: "Mail Reza",
         type: "gray",
         icon: <FiMail />
       }
