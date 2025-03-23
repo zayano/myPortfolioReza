@@ -1,28 +1,24 @@
-import axios, { AxiosResponse } from "axios";
-import { IArticle } from "../interfaces/interface";
-import { convertMarkdownToHtml, sanitizeDevToMarkdown } from "./markdown";
+import axios, { AxiosResponse } from 'axios';
+import { IArticle } from '../interfaces/interface';
+import { convertMarkdownToHtml, sanitizeDevToMarkdown } from './markdown';
 
-const username = "m_ahmad";
-const blogURL = "https://dev.to/m_ahmad";
+const username = 'zayano';
+const blogURL = 'https://dev.to/zayano';
 
 // Get all users articles from Dev.to and filter by ones with a canonical URL to your blog
 export const getAllArticles = async (): Promise<IArticle[]> => {
   const params = { username, per_page: 1000 };
-  const headers = { "api-key": process.env.DEVTO_APIKEY };
+  const headers = { 'api-key': process.env.DEVTO_APIKEY };
 
-  const { data }: AxiosResponse = await axios.get(
-    `https://dev.to/api/articles/me`,
-    {
-      params,
-      headers
-    }
-  );
+  const { data }: AxiosResponse = await axios.get(`https://dev.to/api/articles/me`, {
+    params,
+    headers
+  });
   const articles: IArticle[] = data.map(convertDevtoResponseToArticle);
   return articles;
 };
 
-const blogFilter = (article: IArticle): boolean =>
-  article.canonical.startsWith(blogURL);
+const blogFilter = (article: IArticle): boolean => article.canonical.startsWith(blogURL);
 
 export const getAllBlogArticles = async (): Promise<IArticle[]> => {
   const articles = await getAllArticles();
@@ -31,9 +27,8 @@ export const getAllBlogArticles = async (): Promise<IArticle[]> => {
 
 // Takes a URL and returns the relative slug to your website
 export const convertCanonicalURLToRelative = (canonical: string): string => {
-  return canonical.replace(blogURL, "");
+  return canonical.replace(blogURL, '');
 };
-
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types, @typescript-eslint/no-explicit-any
 const convertDevtoResponseToArticle = (data: any): IArticle => {
