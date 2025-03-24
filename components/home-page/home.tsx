@@ -143,8 +143,10 @@ const Home: React.FC<BlogPostProps> = (props) => {
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-            This is my digital garden, where I write about the things I&apos;m working on and share
-            what I&apos;ve learned. 😊
+            This website serves as a personal digital garden where I document my technical journey,
+            share insights, and showcase the projects I'm working on. My goal is to not only share
+            what I've learned but also to inspire and collaborate with others in the open-source
+            community. 😊
           </Box>
         </MotionFlex>
       </Flex>
