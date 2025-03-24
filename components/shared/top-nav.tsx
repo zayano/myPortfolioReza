@@ -37,17 +37,17 @@ const webLinks = [
 ];
 
 const mobileLinks = [
-  { name: 'Projects', path: '/projects' },
+  // { name: 'Projects', path: '/projects' },
   { name: 'Open Source', path: '/open-source' },
   { name: 'Blog', path: '/blog' },
   { name: 'Changelog', path: '/changelog' }
 ];
 
 const dropdownLinks = [
-  { name: 'Projects', path: '/projects' },
-  { name: 'Tech Stack', path: '/tech-stack' },
+  // { name: 'Projects', path: '/projects' },
+  // { name: 'Tech Stack', path: '/tech-stack' },
   { name: 'Open Source', path: '/open-source' },
-  { name: 'Achievements', path: '/achievements' },
+  // { name: 'Achievements', path: '/achievements' },
   { name: 'Changelog', path: '/changelog' }
   // { name: "Developer Story", path: "/developer-story" }
 ];
