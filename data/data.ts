@@ -253,17 +253,8 @@ export const skillsArray = [
 
 export const newContent = [
   {
-    link: '/blog/chakraui-templateskart-ui-updates',
-    text: 'ChakraUI TemplatesKart - UI updates',
+    link: '/blog/building-my-personal-portfolio-my-journey-with-nextjs-and-vercel-4f2n',
+    text: 'Building My Personal Portfolio: My Journey with Next.js and Vercel',
     showNewTag: false
-  },
-  {
-    link: '/blog/templateskart-free-chakra-ui-components-and-projects',
-    text: 'TemplatesKart | Free Chakra UI Components and Projects',
-    showNewTag: false
-  },
-  {
-    link: '/blog/started-2022-by-updating-portfolio-website-1jde-temp-slug-4553258',
-    text: 'Started 2022 by updating portfolio website'
   }
 ];

@@ -132,7 +132,8 @@ export const getServerSideProps: GetServerSideProps = async () => {
   });
 
   devtoPosts = devtoPosts.filter((data) => data.canonical_url.includes('dev.to'));
-  const posts = [...localPosts, ...devtoPosts];
+  // const posts = [...localPosts, ...devtoPosts]; // localPost from "data/posts" and devtoPosts from dev.to
+  const posts = [...devtoPosts];
 
   if (!posts) {
     return {

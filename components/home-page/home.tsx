@@ -9,7 +9,8 @@ import {
   Link,
   UnorderedList,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
+  Heading
 } from '@chakra-ui/react';
 import { MotionBox, MotionFlex } from 'components/shared/animations/motion';
 import Header from 'components/shared/header';
@@ -202,20 +203,26 @@ const ContentBox = ({ linkColor }) => {
         Content:
       </Text>
       <UnorderedList textAlign="left" paddingLeft={5} m={0}>
-        {newContent.map((content, index) => (
-          <ListItem key={index}>
-            <NextLink href={content.link} passHref>
-              <Link color={linkColor}>
-                {content.text}
-                {content.showNewTag && (
-                  <Badge ml="1" colorScheme="green">
-                    New
-                  </Badge>
-                )}
-              </Link>
-            </NextLink>
-          </ListItem>
-        ))}
+        {newContent.length > 0 ? (
+          newContent.map((content, index) => (
+            <ListItem key={index}>
+              <NextLink href={content.link} passHref>
+                <Link color={linkColor}>
+                  {content.text}
+                  {content.showNewTag && (
+                    <Badge ml="1" colorScheme="green">
+                      New
+                    </Badge>
+                  )}
+                </Link>
+              </NextLink>
+            </ListItem>
+          ))
+        ) : (
+          <Heading as="h1" pt={10} pb={10}>
+            No contents found
+          </Heading>
+        )}
       </UnorderedList>
     </Stack>
   );
