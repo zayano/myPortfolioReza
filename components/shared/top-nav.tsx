@@ -20,7 +20,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { ColorModeSwitcher } from '../theme/ColorModeSwitcher';
 import { AiTwotoneThunderbolt } from 'react-icons/ai';
-import { BiChevronDown } from 'react-icons/bi';
+import { BiChevronDown, BiLogoBlogger } from 'react-icons/bi';
 import { CgArrowsExchange } from 'react-icons/cg';
 import { BsCheckCircle } from 'react-icons/bs';
 import { MdTimeline } from 'react-icons/md';
@@ -33,7 +33,8 @@ import { MotionBox } from 'components/shared/animations/motion';
 
 const webLinks = [
   { name: 'About', path: '/about' },
-  { name: 'Blog', path: '/blog' }
+  { name: 'Tech Stack', path: '/tech-stack' },
+  { name: 'Projects', path: '/projects' }
 ];
 
 const mobileLinks = [
@@ -44,11 +45,10 @@ const mobileLinks = [
 ];
 
 const dropdownLinks = [
-  // { name: 'Projects', path: '/projects' },
-  // { name: 'Tech Stack', path: '/tech-stack' },
-  { name: 'Open Source', path: '/open-source' },
+  { name: 'Blog', path: '/blog' },
+  { name: 'Open Source', path: '/open-source' }
+  // { name: 'Changelog', path: '/changelog' }
   // { name: 'Achievements', path: '/achievements' },
-  { name: 'Changelog', path: '/changelog' }
   // { name: "Developer Story", path: "/developer-story" }
 ];
 
@@ -100,9 +100,9 @@ interface MenuLinkProps {
 
 const MenuLink = (props: MenuLinkProps) => {
   const iconsObj = {
+    '/blog': <Icon as={BiLogoBlogger} size={18} color={props.color} />,
     '/tech-stack': <Icon as={AiTwotoneThunderbolt} size={18} color={props.color} />,
     '/open-source': <Icon as={BsBook} size={18} color={props.color} />,
-    '/achievements': <Icon as={BsCheckCircle} size={18} color={props.color} />,
     '/projects': <Icon as={MdTimeline} size={18} color={props.color} />,
     '/changelog': <Icon as={CgArrowsExchange} size={18} color={props.color} />
   };
