@@ -22,7 +22,6 @@ import { ColorModeSwitcher } from '../theme/ColorModeSwitcher';
 import { AiTwotoneThunderbolt } from 'react-icons/ai';
 import { BiChevronDown, BiLogoBlogger } from 'react-icons/bi';
 import { CgArrowsExchange } from 'react-icons/cg';
-import { BsCheckCircle } from 'react-icons/bs';
 import { MdTimeline } from 'react-icons/md';
 import { BsBook } from 'react-icons/bs';
 import NextLink from 'next/link';

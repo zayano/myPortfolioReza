@@ -16,7 +16,6 @@ import {
 import { GetStaticProps, NextPage } from 'next';
 import Section from 'components/skills/section';
 import { AiTwotoneThunderbolt, AiOutlineCloudServer } from 'react-icons/ai';
-import { BiDesktop, BiSolidEnvelope } from 'react-icons/bi';
 import { GiSpiderWeb } from 'react-icons/gi';
 import SkillCard from 'components/skills/skill-card';
 import { skillsArray } from 'data/data';
@@ -26,7 +25,7 @@ import { container, PageSlideFade } from 'components/shared/animations/page-tran
 import PageLayout from '../components/layouts/pageLayout';
 import { useLinkColor } from 'components/theme';
 import { SkillProps } from 'interfaces/interface';
-import { GoDeviceDesktop, GoDeviceMobile } from 'react-icons/go';
+import { GoDeviceDesktop } from 'react-icons/go';
 
 const tabList = [
   {
