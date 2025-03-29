@@ -117,11 +117,39 @@ export const institutes = [
 
 export const skillsArray = [
   {
-    name: 'Ruby on Rails',
-    description: 'Web development',
-    link: 'https://rubyonrails.org/',
+    name: 'Flutter',
+    description: 'Mobile development',
+    link: 'https://flutter.dev/',
     type: 'development',
-    image: '/assets/images/skills/rails.png'
+    image: '/assets/images/skills/flutter.png'
+  },
+  {
+    name: 'Dart',
+    description: 'Mobile development',
+    link: 'https://dart.dev/',
+    type: 'development',
+    image: '/assets/images/skills/dart.png'
+  },
+  {
+    name: 'Kotlin',
+    description: 'Mobile development',
+    link: 'https://kotlinlang.org/',
+    type: 'development',
+    image: '/assets/images/skills/kotlin.png'
+  },
+  {
+    name: 'JAVA',
+    description: 'Mobile development',
+    link: 'https://www.java.com/',
+    type: 'development',
+    image: '/assets/images/skills/java.png'
+  },
+  {
+    name: 'Swift',
+    description: 'Mobile development',
+    link: 'https://www.swift.org/',
+    type: 'development',
+    image: '/assets/images/skills/swift.png'
   },
   {
     name: 'Nextjs',
@@ -136,13 +164,6 @@ export const skillsArray = [
     link: 'https://reactjs.org/',
     type: 'development',
     image: '/assets/images/skills/react.png'
-  },
-  {
-    name: 'Ruby',
-    description: 'Web development, scrapping',
-    link: 'https://www.ruby-lang.org/en/',
-    type: 'development',
-    image: '/assets/images/skills/ruby.png'
   },
   {
     name: 'Python',
@@ -200,20 +221,14 @@ export const skillsArray = [
     type: 'database',
     image: '/assets/images/skills/mysql.png'
   },
-  {
-    name: 'Redis',
-    description: 'Database',
-    link: 'https://redis.io/',
-    type: 'database',
-    image: '/assets/images/skills/redis.png'
-  },
-  {
-    name: 'Heroku',
-    description: 'Devops',
-    link: 'https://www.heroku.com/',
-    type: 'devops',
-    image: '/assets/images/skills/heroku.png'
-  },
+
+  // {
+  //   name: 'Heroku',
+  //   description: 'Devops',
+  //   link: 'https://www.heroku.com/',
+  //   type: 'devops',
+  //   image: '/assets/images/skills/heroku.png'
+  // },
   {
     name: 'AWS',
     description: 'Devops',
@@ -221,19 +236,47 @@ export const skillsArray = [
     type: 'devops',
     image: 'assets/images/skills/aws.png'
   },
-  {
-    name: 'Digital Ocean',
-    description: 'Devops',
-    link: 'https://www.digitalocean.com/',
-    type: 'devops',
-    image: '/assets/images/skills/digital-ocean.png'
-  },
+  // {
+  //   name: 'Digital Ocean',
+  //   description: 'Devops',
+  //   link: 'https://www.digitalocean.com/',
+  //   type: 'devops',
+  //   image: '/assets/images/skills/digital-ocean.png'
+  // },
   {
     name: 'Nginx',
     description: 'Web server',
     link: 'https://www.nginx.com/',
     type: 'devops',
     image: '/assets/images/skills/nginx.png'
+  },
+  {
+    name: 'Figma',
+    description: 'Collaborative Design',
+    link: 'https://www.figma.com/',
+    type: 'design',
+    image: '/assets/images/skills/figma.png'
+  },
+  {
+    name: 'GIT',
+    description: 'Development',
+    link: 'https://git-scm.com/',
+    type: 'development',
+    image: '/assets/images/skills/git.png'
+  },
+  {
+    name: 'Json',
+    description: 'Development',
+    link: 'https://www.json.org/',
+    type: 'development',
+    image: '/assets/images/skills/json.png'
+  },
+  {
+    name: 'Tailwind',
+    description: 'Web Design',
+    link: 'https://tailwindcss.com/',
+    type: 'design',
+    image: '/assets/images/skills/tailwind.png'
   },
   {
     name: 'Visual Studio Code',
@@ -243,11 +286,18 @@ export const skillsArray = [
     image: '/assets/images/skills/vscode.png'
   },
   {
-    name: 'Figma',
-    description: 'Collaborative Design',
-    link: 'https://www.figma.com/',
-    type: 'design',
-    image: '/assets/images/skills/figma.png'
+    name: 'Android Studio',
+    description: 'Mobile development',
+    link: 'https://developer.android.com/studio',
+    type: 'development',
+    image: '/assets/images/skills/android-studio.png'
+  },
+  {
+    name: 'XCode',
+    description: 'Mobile development',
+    link: 'https://developer.apple.com/xcode/',
+    type: 'development',
+    image: '/assets/images/skills/xcode.png'
   }
 ];
 
