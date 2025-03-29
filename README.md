@@ -1,9 +1,10 @@
 <div align="center">
-  <h1><a href="https://mahmad.me" target="_blank">Mahmad.me</a></h1>
+  <h1><a href="https://iamzayano.vercel.app" target="_blank">Mahmad.me</a></h1>
   My personal portfolio website to show my skills, experience, and articles I published
 </div>
 
 ## Built with
+
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Chakra UI](https://chakra-ui.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
@@ -20,7 +21,7 @@
 - `components/*` - Contains all components related to pages (blog, projects, about, etc).
   - `shared/*` - All reusable components like header, footer etc.
   - `layouts/*` - The different page layouts.
-  -  `theme/*` - Manage theme of site. 
+  - `theme/*` - Manage theme of site.
 - `data/*` - Data that used for blog posts, projects etc.
 - `lib/*` - Collection of helpful utilities or code for external services like devto api.
 - `pages/api/*` - [API routes](https://nextjs.org/docs/api-routes/introduction).
@@ -30,21 +31,21 @@
 - `public/*` - Static assets including audios, fonts and images.
 
 ## View and copy code of your favourite components
+
 [TemplatesKart website](https://templateskart.com/projects/my-website)
 
 ## Running Locally
 
 ```sh
-git clone https://github.com/MA-Ahmad/myPortfolio
+git clone https://github.com/zayano/myPortfolioReza
 cd myPortfolio && yarn install
 yarn dev
 ```
 
 The above commands will start the application on [http://localhost:3000/](http://localhost:3000)
 
-
 <!-- ## Screens
-### Home 
+### Home
 ![Home Screen](/public/assets/images/screens/home_page.png)
 ### Blog
 ![Skills Screen](/public/assets/images/screens/blog_page.png) -->
