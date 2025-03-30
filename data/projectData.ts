@@ -1,41 +1,39 @@
 export const projectsList = [
-  // {
-  //   title: 'Smata',
-  //   imageLight: '/assets/images/projects/cover/smata.png',
-  //   blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-  //   site: 'https://smata.com/',
-  //   description:
-  //     'SMATA IS AN ALL-IN-ONE CLOUD-BASED SOLUTION, INTEGRATING MANAGEMENT, COMMUNICATION & ACCOUNTING FUNCTIONS.',
-  //   techStack: ['Rails', 'React', 'Javascript']
-  // },
-  // {
-  //   title: 'Peterpitch',
-  //   imageLight: '/assets/images/projects/cover/peterpitch.png',
-  //   blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-  //   site: 'https://peterpitch.com/',
-  //   description:
-  //     'Peterpitch is a tool that takes the fun in your company seriously and turns your meetings into real performance boosters.',
-  //   techStack: ['Rails', 'React', 'Javascript']
-  // },
-  // {
-  //   title: 'TemplatesKart',
-  //   imageLight: '/assets/images/projects/cover/templateskart.png',
-  //   blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-  //   site: 'https://templateskart.com',
-  //   gitHub: 'https://github.com/MA-Ahmad/templatesKart',
-  //   description:
-  //     'TemplatesKart provides the best Chakra UI templates. Production-ready hand crafted Projects and Components built on top of ChakraUI.',
-  //   techStack: ['React', 'Nextjs', 'ChakraUI']
-  // },
-  // {
-  //   title: 'Notch',
-  //   site: 'https://www.hellonotch.com/',
-  //   imageLight: '/assets/images/projects/cover/notch.png',
-  //   blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
-  //   description:
-  //     'This is a project management website for design and procurement teams. It helps to collaborate and manage all of your floor plans in one place.',
-  //   techStack: ['Rails', 'Javascript']
-  // },
+  {
+    title: 'Depok Single Window',
+    imageLight: '/assets/images/projects/cover/dsw.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://dsw.depok.go.id/',
+    description:
+      'City services and information center in one application and can provide easy access to the public in finding information about the city government.',
+    techStack: ['Kotlin', 'JSON', 'Android']
+  },
+  {
+    title: 'Digital Signage',
+    imageLight: '/assets/images/projects/cover/ds.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://www.sentuh.id/digital-signage',
+    description:
+      ' A visual communication solution that uses electronic screens to display information, advertisements, videos, images, or dynamic multimedia content.',
+    techStack: ['Java', 'JSON', 'Android']
+  },
+  {
+    title: 'Wifi.Id Go Mobile',
+    imageLight: '/assets/images/projects/cover/wigo.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://play.google.com/store/apps/details?id=com.telkom.wifiidgo&hl=id&pli=1',
+    description:
+      ' Wifi.id GO makes it easy to always be connected to the @wifi.id internet network anywhere and anytime!',
+    techStack: ['Java', 'JSON', 'Android']
+  },
+  {
+    title: 'VMS TransJakarta & JakLingko',
+    imageLight: '/assets/images/projects/cover/vms.png',
+    blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
+    description:
+      'The TransJakarta & JakLingko VMS application is an application owned by Trans Jakarta and JakLingko which is used to assist users in making agreements for business, training, visits, meetings, and others by using the face recognition feature or face detection. And here is an overview of the application.',
+    techStack: ['Flutter', 'Dart', 'MLKit']
+  }
   // {
   //   title: 'Workof Ecommerce',
   //   imageLight: '/assets/images/projects/cover/workof.png',
