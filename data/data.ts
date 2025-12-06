@@ -8,9 +8,12 @@ export const companies = [
       'dart',
       'nextjs',
       'react',
+      'svelte',
+      'svelte-kit',
       'typescript',
       'javascript',
       'nestjs',
+      'ci/cd',
       'json',
       'firebase',
       'playstore',
@@ -121,183 +124,161 @@ export const skillsArray = [
     description: 'Mobile development',
     link: 'https://flutter.dev/',
     type: 'development',
-    image: '/assets/images/skills/flutter.png'
+    image: 'https://logo.svgcdn.com/devicon/flutter-original.png'
   },
   {
     name: 'Dart',
     description: 'Mobile development',
     link: 'https://dart.dev/',
     type: 'development',
-    image: '/assets/images/skills/dart.png'
+    image: 'https://logo.svgcdn.com/devicon/dart-original.png'
   },
   {
     name: 'Kotlin',
     description: 'Mobile development',
     link: 'https://kotlinlang.org/',
     type: 'development',
-    image: '/assets/images/skills/kotlin.png'
+    image: 'https://logo.svgcdn.com/devicon/kotlin-original.png'
   },
   {
     name: 'JAVA',
     description: 'Mobile development',
     link: 'https://www.java.com/',
     type: 'development',
-    image: '/assets/images/skills/java.png'
+    image: 'https://logo.svgcdn.com/devicon/java-original.png'
   },
   {
     name: 'Swift',
     description: 'Mobile development',
     link: 'https://www.swift.org/',
     type: 'development',
-    image: '/assets/images/skills/swift.png'
+    image: 'https://logo.svgcdn.com/devicon/swift-original.png'
   },
   {
     name: 'Nextjs',
     description: 'Web development',
     link: 'https://nextjs.org/',
     type: 'development',
-    image: '/assets/images/skills/nextjs.png'
+    image: 'https://logo.svgcdn.com/devicon/nextjs-original.png'
   },
   {
     name: 'React',
     description: 'Web development',
     link: 'https://reactjs.org/',
     type: 'development',
-    image: '/assets/images/skills/react.png'
+    image: 'https://logo.svgcdn.com/devicon/react-original.png'
   },
   {
-    name: 'Python',
-    description: 'Web development, scrapping',
-    link: 'https://www.python.org/',
+    name: 'Svelte',
+    description: 'Web development',
+    link: 'https://svelte.dev/',
     type: 'development',
-    image: '/assets/images/skills/python.png'
+    image: 'https://logo.svgcdn.com/devicon/svelte-original.png'
   },
   {
     name: 'Javascript',
     description: 'Web development',
     link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     type: 'development',
-    image: '/assets/images/skills/javascript.png'
+    image: 'https://logo.svgcdn.com/devicon/javascript-original.png'
   },
   {
     name: 'Typescript',
     description: 'Web development',
     link: 'https://www.typescriptlang.org/',
     type: 'development',
-    image: '/assets/images/skills/typescript.png'
+    image: 'https://logo.svgcdn.com/devicon/typescript-original.png'
   },
   {
     name: 'Html5',
     description: 'Web layouts',
     link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     type: 'development',
-    image: '/assets/images/skills/html-5.png'
+    image: 'https://logo.svgcdn.com/devicon/html5-original.png'
   },
   {
     name: 'Css3',
     description: 'Web design',
     link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     type: 'design',
-    image: '/assets/images/skills/css3.png'
+    image: 'https://logo.svgcdn.com/devicon/css3-original.png'
   },
   {
     name: 'Bootstrap',
     description: 'Web design',
     link: 'https://getbootstrap.com/',
     type: 'design',
-    image: '/assets/images/skills/bootstrap.png'
+    image: 'https://logo.svgcdn.com/devicon/bootstrap-original.png'
   },
   {
-    name: 'Postgres',
+    name: 'Postgresql',
     description: 'Database',
     link: 'https://www.postgresql.org/',
     type: 'database',
-    image: '/assets/images/skills/postgresql.png'
+    image: 'https://logo.svgcdn.com/devicon/postgresql-original.png'
   },
   {
     name: 'Mysql',
     description: 'Database',
     link: 'https://www.mysql.com/',
     type: 'database',
-    image: '/assets/images/skills/mysql.png'
+    image: 'https://logo.svgcdn.com/devicon/mysql-original.png'
   },
-
-  // {
-  //   name: 'Heroku',
-  //   description: 'Devops',
-  //   link: 'https://www.heroku.com/',
-  //   type: 'devops',
-  //   image: '/assets/images/skills/heroku.png'
-  // },
-  {
-    name: 'AWS',
-    description: 'Devops',
-    link: 'https://aws.amazon.com/',
-    type: 'devops',
-    image: 'assets/images/skills/aws.png'
-  },
-  // {
-  //   name: 'Digital Ocean',
-  //   description: 'Devops',
-  //   link: 'https://www.digitalocean.com/',
-  //   type: 'devops',
-  //   image: '/assets/images/skills/digital-ocean.png'
-  // },
   {
     name: 'Nginx',
     description: 'Web server',
     link: 'https://www.nginx.com/',
     type: 'devops',
-    image: '/assets/images/skills/nginx.png'
+    image: 'https://logo.svgcdn.com/devicon/nginx-original.png'
   },
   {
     name: 'Figma',
     description: 'Collaborative Design',
     link: 'https://www.figma.com/',
     type: 'design',
-    image: '/assets/images/skills/figma.png'
+    image: 'https://logo.svgcdn.com/devicon/figma-original.png'
   },
   {
     name: 'GIT',
     description: 'Development',
     link: 'https://git-scm.com/',
     type: 'development',
-    image: '/assets/images/skills/git.png'
+    image: 'https://logo.svgcdn.com/devicon/git-original.png'
   },
   {
     name: 'Json',
     description: 'Development',
     link: 'https://www.json.org/',
     type: 'development',
-    image: '/assets/images/skills/json.png'
+    image: 'https://logo.svgcdn.com/devicon/json-original.png'
   },
   {
     name: 'Tailwind',
     description: 'Web Design',
     link: 'https://tailwindcss.com/',
     type: 'design',
-    image: '/assets/images/skills/tailwind.png'
+    image: 'https://logo.svgcdn.com/devicon/tailwindcss-original.png'
   },
   {
     name: 'Visual Studio Code',
     description: 'Code editor of choice',
     link: 'https://code.visualstudio.com/',
     type: 'development',
-    image: '/assets/images/skills/vscode.png'
+    image: 'https://logo.svgcdn.com/devicon/vscode-original.png'
   },
   {
     name: 'Android Studio',
     description: 'Mobile development',
     link: 'https://developer.android.com/studio',
     type: 'development',
-    image: '/assets/images/skills/android-studio.png'
+    image: 'https://logo.svgcdn.com/devicon/androidstudio-original.png'
   },
   {
     name: 'XCode',
     description: 'Mobile development',
     link: 'https://developer.apple.com/xcode/',
     type: 'development',
-    image: '/assets/images/skills/xcode.png'
+    image: 'https://logo.svgcdn.com/devicon/xcode-original.png'
   }
 ];
 
