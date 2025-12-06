@@ -1,5 +1,14 @@
 export const projectsList = [
   {
+    title: 'PELNI Agencies Website',
+    imageLight: '/assets/images/projects/cover/agencies-pelni.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://agencies.pelni.co.id/',
+    description:
+      'A website to display information about the agencies of PT. Pelayaran Nasional Indonesia (Persero).',
+    techStack: ['Nextjs', 'Tailwind', 'Typescript']
+  },
+  {
     title: 'Depok Single Window',
     imageLight: '/assets/images/projects/cover/dsw.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
